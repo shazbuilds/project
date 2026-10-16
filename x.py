@@ -1,6 +1,5 @@
 import json
-from model import Vazifa
-
+from m import Vazifa
 
 class Royxat:
     def __init__(self):
