@@ -1,5 +1,7 @@
 import unittest
-from model import Vazifa
+from m import Vazifa
+
+
 class VazifaTest(unittest.TestCase):
     def test_yangi_vazifa(self):
         v = Vazifa("Dars qilish")
@@ -13,3 +15,7 @@ class VazifaTest(unittest.TestCase):
     def test_bosh_matn(self):
         with self.assertRaises(ValueError):
             Vazifa("   ")
+
+
+if __name__ == "__main__":
+    unittest.main()
