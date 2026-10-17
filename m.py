@@ -16,5 +16,5 @@ class Vazifa:
             belgi = "[ ]"
         natija = belgi + " " + self.matn
         if self.muhim:
-            natija = natija + "excellent"
+            natija = natija + " "
         return natija
